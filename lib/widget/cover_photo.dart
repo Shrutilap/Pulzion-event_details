@@ -14,12 +14,12 @@ class CoverPhoto extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
         border: Border.all(
-          color: const Color.fromARGB(255, 241, 204, 37),
+          color: const Color(0xFFBFC9CA),
           width: 2
         )
       ),
-      width: size.width * 0.27,
-      height: size.height * 0.18,
+      width: size.width * 0.25,
+      height: size.height * 0.16,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(10),
         child: Image.network(

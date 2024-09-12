@@ -86,7 +86,7 @@ class ShowDetailsPage extends StatelessWidget {
                         "Exclusive FE Event with two rounds: Round 1 features aptitude and basic programming MCQs, and Round 2 is a competitive programming contest (Hackerrank or our platform) with a final question at Codeforces Div 2 difficulty.",
                         style: TextStyle(
                           fontSize: 25,
-                          color: Colors.amber,
+                          color: const Color(0xFFBFC9CA),
                           fontFamily: 'VT',
                         ),
                       ),

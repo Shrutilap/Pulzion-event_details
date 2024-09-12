@@ -31,7 +31,7 @@ class DataCutRectangle extends StatelessWidget {
                         : 0.0)),
             child: const Text(
               'CodeX',
-              style: TextStyle(fontSize: 40, fontWeight: FontWeight.w500, color: Colors.amber, fontFamily: "VT"),
+              style: TextStyle(fontSize: 40, fontWeight: FontWeight.w500, color: const Color(0xFFBFC9CA), fontFamily: "VT"),
               textAlign: TextAlign.start,
             ),
           ),
@@ -42,7 +42,7 @@ class DataCutRectangle extends StatelessWidget {
             AnimatedOpacity(
               duration: const Duration(milliseconds: 200),
               opacity: (1 - pow(percent, 0.001)).toDouble(),
-              child: const CustomBottomDescription(),
+              // child: const CustomBottomDescription(),
             )
           ]
         ],

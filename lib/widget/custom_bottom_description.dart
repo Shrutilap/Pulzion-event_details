@@ -12,7 +12,7 @@ class CustomBottomDescription extends StatelessWidget {
       children: [
         Text(
           'A Technical Event',
-          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: Colors.amber),
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: const Color(0xFFBFC9CA),),
         ),
         
       ],
